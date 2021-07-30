@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: springboot
-          image: dorisimagesdemotag:latest
+          image: dorisimagesdemotag:TAG
           ports:
             - containerPort: 8080
           env:
