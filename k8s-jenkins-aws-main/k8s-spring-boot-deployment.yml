@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: springboot
-          image: dorisimagesdemotag:TAG
+          image: dorisfebrianda93/kubernetesjava:TAG
           ports:
             - containerPort: 8080
           env:
